@@ -1,0 +1,9 @@
+Lav en ny bruger i mySQL workbench.
+
+Lav en ny MySQL connection fra hovedmenuen.
+
+Brug den bruger til at logge på du lige har lavet.
+
+Ændre username og password info i application.propterties i intellij
+
+Lav et nyt schema.

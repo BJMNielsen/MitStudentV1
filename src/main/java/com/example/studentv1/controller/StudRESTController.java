@@ -54,6 +54,7 @@ public class StudRESTController {
     @PostMapping("/student")
     @ResponseStatus(HttpStatus.CREATED)
     public Student postStudent(@RequestBody Student student) {
+        // Vi får et student objekt ud i hånden
         System.out.println(student);
         return studentRepository.save(student);
     }
@@ -64,6 +65,5 @@ public class StudRESTController {
         return new ResponseEntity<>(HttpStatus.OK);
 
     }
-
 
 }

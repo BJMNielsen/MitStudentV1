@@ -8,7 +8,7 @@ import java.time.LocalTime;
 @Entity
 public class Student {
 
-    @Id
+    @Id // Sætter ID som primary key.
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
