@@ -12,7 +12,7 @@ import java.util.List;
 
 @Component
 public class InitData implements CommandLineRunner {
-
+    //s
     @Autowired
     StudentRepository studentRepository;
 
