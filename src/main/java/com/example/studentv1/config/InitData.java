@@ -18,7 +18,7 @@ public class InitData implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        if (3>4) {
+        if (3>2) {
             Student s1 = new Student();
             s1.setId(1);
             s1.setName("Viggo");
